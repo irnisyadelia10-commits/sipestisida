@@ -1,0 +1,70 @@
+# Laravel Framework
+/vendor
+/node_modules
+/public/hot
+/public/storage
+/storage/*.key
+/storage/pail
+/bootstrap/ssr
+/bootstrap/cache/*.php
+
+# Environment Files (SANGAT PENTING - jangan sampai ter-upload)
+.env
+.env.backup
+.env.production
+.env.*.php
+
+# Cache & Logs
+/storage/framework/cache/*
+/storage/framework/sessions/*
+/storage/framework/testing/*
+/storage/framework/views/*
+/storage/logs/*
+!/storage/framework/cache/.gitignore
+!/storage/framework/sessions/.gitignore
+!/storage/framework/testing/.gitignore
+!/storage/framework/views/.gitignore
+!/storage/logs/.gitignore
+
+# Testing
+.phpunit.result.cache
+/coverage
+
+# IDE & Editor
+/.idea
+/.vscode
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Build Assets (Vite)
+/public/build
+/public/css
+/public/js
+/public/mix-manifest.json
+
+# Composer
+composer.phar
+
+# Homestead / Vagrant (kalau dipakai)
+Homestead.json
+Homestead.yaml
+.vagrant
+
+# Package Manager
+yarn-error.log
+npm-debug.log
+
+# Auth Keys (kalau ada)
+/storage/oauth-private.key
+/storage/oauth-public.key
+
+# QR Code / Uploaded Files (khusus SIPESTISIDA)
+/storage/app/public/qrcodes/*
+!/storage/app/public/qrcodes/.gitkeep
+
+# Database dump (JANGAN upload data asli PT. Ridho Agro Jaya)
+*.sql
+*.sqlite
+database/*.sqlite
